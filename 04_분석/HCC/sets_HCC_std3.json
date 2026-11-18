@@ -1,0 +1,119 @@
+{
+ "tag": "HCC",
+ "outcome_column": "nhis__간암__진료실인원수",
+ "fixed_on": "2026-11-05 (결과 보기 전 사전지정; 데이터 값 미열람, 변수사전만 사용)",
+ "forced": [
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+  "ext__pop80_share"
+ ],
+ "negative_controls": [
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+  "eloc__DT_1YL20331__지수__계",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "kchs__DT_117075_H_DR_HIGH_WH__SR",
+   "kchs__DT_H_SM__SR",
+   "chk__정상B_비만관리_수검자대비비율",
+   "chk__정상B_당뇨관리_수검자대비비율",
+   "ext__liverB_share",
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total",
+   "fac__생활체육관",
+   "vil__계",
+   "nhis__의료급여1종__진료실인원수",
+   "eloc__DT_1YL12701__독거노인가구비율＜br＞(A÷B×100)",
+   "eloc__DT_1YL202004__노후주택비율(A÷B×100)",
+   "eloc__DT_1YL15004__상용직비중＜br＞(A÷B×100)",
+   "chk__수검률"
+  ],
+  "S2_core": [
+   "kchs__DT_117075_H_DR_HIGH_WH__SR",
+   "kchs__DT_H_SM__SR",
+   "chk__정상B_비만관리_수검자대비비율",
+   "chk__정상B_당뇨관리_수검자대비비율",
+   "ext__liverB_share",
+   "kchs__DT_H_EX_PHY__SR",
+   "nhis__의료급여1종__진료실인원수",
+   "chk__수검률"
+  ],
+  "S3_physical_activity": [
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total",
+   "fac__생활체육관",
+   "vil__계"
+  ],
+  "S4_socioeconomic_detection": [
+   "nhis__의료급여1종__진료실인원수",
+   "eloc__DT_1YL15004__상용직비중＜br＞(A÷B×100)",
+   "eloc__DT_1YL12701__독거노인가구비율＜br＞(A÷B×100)",
+   "eloc__DT_1YL202004__노후주택비율(A÷B×100)",
+   "chk__수검률"
+  ]
+ },
+ "transform": {
+  "chk__수검률": "none",
+  "chk__정상B_당뇨관리_수검자대비비율": "none",
+  "chk__정상B_비만관리_수검자대비비율": "none",
+  "eloc__DT_1YL12701__독거노인가구비율＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL15004__상용직비중＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL202004__노후주택비율(A÷B×100)": "none",
+  "eloc__DT_1YL20331__지수__계": "none",
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구": "share_of_pop(도시지역인구÷population(마스터))",
+  "eloc__DT_1YL20631__고령인구비율＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)": "none",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)": "none",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)": "none",
+  "fac__total": "per100k",
+  "fac__생활체육관": "per100k",
+  "kchs__DT_117075_H_DR_HIGH_WH__SR": "none",
+  "kchs__DT_H_EX_PHY__SR": "none",
+  "kchs__DT_H_EX_WALK__SR": "none",
+  "kchs__DT_H_SM__SR": "none",
+  "nhis__의료급여1종__진료실인원수": "per100k",
+  "vil__계": "per100k",
+  "ext__liverB_share": "none",
+  "ext__pop80_share": "none"
+ },
+ "rules": {
+  "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+  "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+  "credible": "95% CrI 1 제외",
+  "vif_drop": 10,
+  "multiverse_specs": 200,
+  "main_model_note": "시리즈 규칙(10/6 저자 결정)대로 주모형=S1_narrative_full(가설 변수 전부+강제통제), 규칙 선택 세트는 민감도. VIF>10 변수는 유지·보고. 결측 연도(2013년 이전 상용직, 2015년 이전 노후주택)는 해당 셀 결측으로 두고 다중우주에서 제외 사양 포함. 정상B 간기능관리(per100k)는 수검 규모를 함께 담으므로 수검률이 들어간 세트(S1·S2)에만 둠. S3는 비만·당뇨·간기능 없이 신체활동의 총효과, S1·S2는 대사·간손상 매개를 통제한 직접효과로 읽음"
+ },
+ "note": "다른 질환 풀과 독립 구성(간암 병인: HBV·HCV·음주·흡연·비만·당뇨·대사이상, 신체활동, 사회경제, 검출). 시군구 B·C형간염 지표는 풀에 없음(nhis 감염병·간질환, 검진 간장질환 의심은 종속변수 지정·결과 중첩으로 제외) → 바이러스 지역차(남해안 HCV 군집 등)는 공간 무작위효과가 흡수. per100k 분모는 마스터 population, share_of_pop는 해당 인원÷population. | 2026-11-05 대장 클로드: 간기능관리 경계군은 수검자 대비 비율(ext__liverB_share = 정상B 간기능관리 ÷ 검진수검 ×100, 02_패널/HCC_liverB_share.csv)로 바꿈(다른 검진 판정 변수와 같은 분모; 인구당 개수는 수검률과 섞임).",
+ "extra_columns": {
+  "ext__liverB_share": [
+   "HCC_liverB_share.csv",
+   "liverB_share"
+  ],
+  "ext__pop80_share": [
+   "HCC_Estd2.csv",
+   "pop80_share_raw"
+  ]
+ },
+ "offset_E_column": "E_std2",
+ "offset_E_label": "age-standardised E, fine age bands (E_std2)",
+ "graph": "593-edge contact graph (BRCA 2026-11-04 graph_audit: polygon intersections + six retained island links; 227+2 components), ST_GRAPH=04_분석/HCC/graph_593.graph",
+ "population_override": [
+  {
+   "year": 2023,
+   "fbd_region": "경상남도창원시",
+   "population": 1009038,
+   "source": "KOSIS DT_1YL20651E 2023 통합창원시 계; FBD_DATA_ZIP/2023.csv 창원 블록이 2022값 복사(유방암 11/4 population_final_audit)"
+  }
+ ],
+ "offset_E_file": "HCC_Estd2.csv",
+ "fixed_on_std3": "2026-11-05 (결과 열람 전)",
+ "std3_note": "2026-11-05 PLAN R67(결과 열람 전, 런북 15 §1-B std3 표준): v1 sets_HCC.json 세트·방향·음성대조 그대로(문헌 32편 PMID 검증). 주분석 = v1 S1_narrative_full(가설 15개 + forced). E = E_std2(10구간·75+, 창원 2023 교정). forced: v1에서 고령인구비율(65+) 제거, 80세 이상 비율 추가; 의사 수·도시성·성비·재정자주도 v1 그대로. 비교 결과 = 위암(GCA)·관절염(ARTH)(감염병은 B·C형 간염 포함으로 제외). 민감도 = s577·s2·s8, KH I-IV, 88g, 88h. S7 다중우주 5분할 병렬(81 ST_MV_RANGE)."
+}

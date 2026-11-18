@@ -1,0 +1,454 @@
+{
+ "tag": "HCC",
+ "outcome_column": "nhis__간암__진료실인원수",
+ "outcome_label_en": "HCC treated patients (NHIS, annual)",
+ "disease_ko": "간암",
+ "disease_en": "HCC",
+ "forced": [
+  "urban_population_share",
+  "physicians_per_1000",
+  "sex_ratio",
+  "fiscal_independence",
+  "pop80_share"
+ ],
+ "candidates": [
+  "high_risk_drinking_rate",
+  "current_smoking_rate",
+  "screening_normalB_obesity_share",
+  "screening_normalB_diabetes_share",
+  "screening_normalB_liver_share",
+  "walking_practice_rate",
+  "moderate_pa_rate",
+  "public_sports_facilities_per_100k",
+  "community_gyms_per_100k",
+  "village_sports_facilities_per_100k",
+  "medical_aid1_patients_per_100k",
+  "older_single_household_share",
+  "old_housing_share",
+  "regular_employee_share",
+  "screening_uptake"
+ ],
+ "negative_controls": [
+  "hit_and_run_rate",
+  "traffic_culture_index",
+  "fires_per_10000"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k",
+   "medical_aid1_patients_per_100k",
+   "older_single_household_share",
+   "old_housing_share",
+   "regular_employee_share",
+   "screening_uptake"
+  ],
+  "S2_core": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "moderate_pa_rate",
+   "medical_aid1_patients_per_100k",
+   "screening_uptake"
+  ],
+  "S3_physical_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k"
+  ],
+  "S4_socioeconomic_detection": [
+   "medical_aid1_patients_per_100k",
+   "regular_employee_share",
+   "older_single_household_share",
+   "old_housing_share",
+   "screening_uptake"
+  ],
+  "S1b_obesity_sensitivity": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k",
+   "medical_aid1_patients_per_100k",
+   "older_single_household_share",
+   "old_housing_share",
+   "regular_employee_share",
+   "screening_uptake",
+   "obesity_rate"
+  ]
+ },
+ "sensitivity_sets": [
+  "S1b_obesity_sensitivity"
+ ],
+ "sensitivity_only_vars": [
+  "obesity_rate"
+ ],
+ "offset_column": "population",
+ "offset_sensitivity": null,
+ "offset_fallback": null,
+ "exclude_years": [],
+ "vars": {
+  "urban_population_share": {
+   "key": "urban_population_share",
+   "column": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+   "transform": "pct_of_pop",
+   "label_en": "Urban-zone population share (%)",
+   "label_ko": "도시지역 인구 비율",
+   "expected_direction": "±",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구"
+  },
+  "physicians_per_1000": {
+   "key": "physicians_per_1000",
+   "column": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+   "transform": "none",
+   "label_en": "Physicians per 1000",
+   "label_ko": "인구 천명당 의사 수",
+   "expected_direction": "±",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)"
+  },
+  "sex_ratio": {
+   "key": "sex_ratio",
+   "column": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Sex ratio (men per 100 women)",
+   "label_ko": "남녀성비",
+   "expected_direction": "+",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)"
+  },
+  "fiscal_independence": {
+   "key": "fiscal_independence",
+   "column": "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+   "transform": "none",
+   "label_en": "Fiscal independence (%)",
+   "label_ko": "재정자주도",
+   "expected_direction": "±",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20891__재정자주도(세입과목개편전)"
+  },
+  "pop80_share": {
+   "key": "pop80_share",
+   "column": "ext__pop80_share",
+   "transform": "none",
+   "label_en": "Population aged 80+ share (%)",
+   "label_ko": "80세 이상 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__pop80_share"
+  },
+  "high_risk_drinking_rate": {
+   "key": "high_risk_drinking_rate",
+   "column": "kchs__DT_117075_H_DR_HIGH_WH__SR",
+   "transform": "none",
+   "label_en": "High-risk drinking rate (SR %)",
+   "label_ko": "고위험음주율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "kchs__DT_117075_H_DR_HIGH_WH__SR"
+  },
+  "current_smoking_rate": {
+   "key": "current_smoking_rate",
+   "column": "kchs__DT_H_SM__SR",
+   "transform": "none",
+   "label_en": "Current smoking rate (SR %)",
+   "label_ko": "현재흡연율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_SM__SR"
+  },
+  "screening_normalB_obesity_share": {
+   "key": "screening_normalB_obesity_share",
+   "column": "chk__정상B_비만관리_수검자대비비율",
+   "transform": "none",
+   "label_en": "Screening normal-B obesity-management share (%)",
+   "label_ko": "검진 정상B 비만관리 비율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "chk__정상B_비만관리_수검자대비비율"
+  },
+  "screening_normalB_diabetes_share": {
+   "key": "screening_normalB_diabetes_share",
+   "column": "chk__정상B_당뇨관리_수검자대비비율",
+   "transform": "none",
+   "label_en": "Screening normal-B diabetes-management share (%)",
+   "label_ko": "검진 정상B 당뇨관리 비율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "chk__정상B_당뇨관리_수검자대비비율"
+  },
+  "screening_normalB_liver_share": {
+   "key": "screening_normalB_liver_share",
+   "column": "ext__liverB_share",
+   "transform": "none",
+   "label_en": "Screening normal-B liver-function-management share (%)",
+   "label_ko": "검진 정상B 간기능관리 비율",
+   "expected_direction": "",
+   "role": "candidate",
+   "raw_key": "ext__liverB_share"
+  },
+  "walking_practice_rate": {
+   "key": "walking_practice_rate",
+   "column": "kchs__DT_H_EX_WALK__SR",
+   "transform": "none",
+   "label_en": "Walking practice rate (SR %)",
+   "label_ko": "걷기 실천율",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_WALK__SR"
+  },
+  "moderate_pa_rate": {
+   "key": "moderate_pa_rate",
+   "column": "kchs__DT_H_EX_PHY__SR",
+   "transform": "none",
+   "label_en": "Moderate-or-higher physical activity rate (SR %)",
+   "label_ko": "중강도 이상 신체활동 실천율",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_PHY__SR"
+  },
+  "public_sports_facilities_per_100k": {
+   "key": "public_sports_facilities_per_100k",
+   "column": "fac__total",
+   "transform": "per100k",
+   "label_en": "Public sports facilities per 100k",
+   "label_ko": "공공체육시설 수(10만 명당)",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "fac__total"
+  },
+  "community_gyms_per_100k": {
+   "key": "community_gyms_per_100k",
+   "column": "fac__생활체육관",
+   "transform": "per100k",
+   "label_en": "Public community gyms per 100k",
+   "label_ko": "생활체육관 수(10만 명당)",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "fac__생활체육관"
+  },
+  "village_sports_facilities_per_100k": {
+   "key": "village_sports_facilities_per_100k",
+   "column": "vil__계",
+   "transform": "per100k",
+   "label_en": "Village sports facilities per 100k",
+   "label_ko": "마을체육시설 수(10만 명당)",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "vil__계"
+  },
+  "medical_aid1_patients_per_100k": {
+   "key": "medical_aid1_patients_per_100k",
+   "column": "nhis__의료급여1종__진료실인원수",
+   "transform": "per100k",
+   "label_en": "Medical Aid type 1 treated patients per 100k",
+   "label_ko": "의료급여 1종 진료실인원(10만 명당)",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "nhis__의료급여1종__진료실인원수"
+  },
+  "older_single_household_share": {
+   "key": "older_single_household_share",
+   "column": "eloc__DT_1YL12701__독거노인가구비율＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Older-adult single-person household share (%)",
+   "label_ko": "독거노인가구비율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "eloc__DT_1YL12701__독거노인가구비율＜br＞(A÷B×100)"
+  },
+  "old_housing_share": {
+   "key": "old_housing_share",
+   "column": "eloc__DT_1YL202004__노후주택비율(A÷B×100)",
+   "transform": "none",
+   "label_en": "Old housing share (%)",
+   "label_ko": "노후주택비율",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "eloc__DT_1YL202004__노후주택비율(A÷B×100)"
+  },
+  "regular_employee_share": {
+   "key": "regular_employee_share",
+   "column": "eloc__DT_1YL15004__상용직비중＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Regular-employee share (%)",
+   "label_ko": "상용직 비중",
+   "expected_direction": "−",
+   "role": "candidate",
+   "raw_key": "eloc__DT_1YL15004__상용직비중＜br＞(A÷B×100)"
+  },
+  "screening_uptake": {
+   "key": "screening_uptake",
+   "column": "chk__수검률",
+   "transform": "none",
+   "label_en": "Health screening uptake (%)",
+   "label_ko": "건강검진 수검률",
+   "expected_direction": "+",
+   "role": "candidate",
+   "raw_key": "chk__수검률"
+  },
+  "obesity_rate": {
+   "key": "obesity_rate",
+   "column": "kchs__DT_H_OBE_OBE__SR",
+   "transform": "none",
+   "label_en": "Obesity rate (self-reported SR %)",
+   "label_ko": "비만율(자가보고)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "kchs__DT_H_OBE_OBE__SR"
+  },
+  "hit_and_run_rate": {
+   "key": "hit_and_run_rate",
+   "column": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Hit-and-run traffic accident rate (%)",
+   "label_ko": "뺑소니 교통사고율",
+   "expected_direction": "0",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)"
+  },
+  "traffic_culture_index": {
+   "key": "traffic_culture_index",
+   "column": "eloc__DT_1YL20331__지수__계",
+   "transform": "none",
+   "label_en": "Traffic culture index",
+   "label_ko": "교통문화지수",
+   "expected_direction": "0",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL20331__지수__계"
+  },
+  "fires_per_10000": {
+   "key": "fires_per_10000",
+   "column": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)",
+   "transform": "none",
+   "label_en": "Fires per 10000 residents",
+   "label_ko": "주민 만명당 화재 건수",
+   "expected_direction": "0",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+  }
+ },
+ "rules": {
+  "waic_tol": 4.0,
+  "cpo_fail_frac": 0.05,
+  "main_set": "S1_narrative_full",
+  "vif_threshold": 10.0,
+  "vif_action": "report",
+  "multiverse_n": 200,
+  "windows": {
+   "W1_2011-15": [
+    2011,
+    2015
+   ],
+   "W2_2016-19": [
+    2016,
+    2019
+   ],
+   "W3_2020-24": [
+    2020,
+    2024
+   ]
+  },
+  "covid_post_from": 2020,
+  "years": [
+   2011,
+   2024
+  ],
+  "raw_rules": {
+   "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+   "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+   "credible": "95% CrI 1 제외",
+   "vif_drop": 10,
+   "multiverse_specs": 200,
+   "main_model_note": "시리즈 규칙(10/6 저자 결정)대로 주모형=S1_narrative_full(가설 변수 전부+강제통제), 규칙 선택 세트는 민감도. VIF>10 변수는 유지·보고. 결측 연도(2013년 이전 상용직, 2015년 이전 노후주택)는 해당 셀 결측으로 두고 다중우주에서 제외 사양 포함. 정상B 간기능관리(per100k)는 수검 규모를 함께 담으므로 수검률이 들어간 세트(S1·S2)에만 둠. S3는 비만·당뇨·간기능 없이 신체활동의 총효과, S1·S2는 대사·간손상 매개를 통제한 직접효과로 읽음"
+  }
+ },
+ "note": "다른 질환 풀과 독립 구성(간암 병인: HBV·HCV·음주·흡연·비만·당뇨·대사이상, 신체활동, 사회경제, 검출). 시군구 B·C형간염 지표는 풀에 없음(nhis 감염병·간질환, 검진 간장질환 의심은 종속변수 지정·결과 중첩으로 제외) → 바이러스 지역차(남해안 HCV 군집 등)는 공간 무작위효과가 흡수. per100k 분모는 마스터 population, share_of_pop는 해당 인원÷population. | 2026-11-05 대장 클로드: 간기능관리 경계군은 수검자 대비 비율(ext__liverB_share = 정상B 간기능관리 ÷ 검진수검 ×100, 02_패널/HCC_liverB_share.csv)로 바꿈(다른 검진 판정 변수와 같은 분모; 인구당 개수는 수검률과 섞임).",
+ "fixed_on": "2026-11-05 (결과 보기 전 사전지정; 데이터 값 미열람, 변수사전만 사용)",
+ "source_json": "sets_HCC_std3.json",
+ "version": "std3",
+ "suffix": "_std3",
+ "offset_E_column": "E_std2",
+ "offset_E_file": "HCC_Estd2.csv",
+ "offset_E_sensitivity_column": null,
+ "offset_E_label": "age-standardised E, fine age bands (E_std2)",
+ "sets_after_vif": {
+  "S1_narrative_full": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k",
+   "medical_aid1_patients_per_100k",
+   "older_single_household_share",
+   "old_housing_share",
+   "regular_employee_share",
+   "screening_uptake"
+  ],
+  "S2_core": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "moderate_pa_rate",
+   "medical_aid1_patients_per_100k",
+   "screening_uptake"
+  ],
+  "S3_physical_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k"
+  ],
+  "S4_socioeconomic_detection": [
+   "medical_aid1_patients_per_100k",
+   "regular_employee_share",
+   "older_single_household_share",
+   "old_housing_share",
+   "screening_uptake"
+  ],
+  "S1b_obesity_sensitivity": [
+   "high_risk_drinking_rate",
+   "current_smoking_rate",
+   "screening_normalB_obesity_share",
+   "screening_normalB_diabetes_share",
+   "screening_normalB_liver_share",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "community_gyms_per_100k",
+   "village_sports_facilities_per_100k",
+   "medical_aid1_patients_per_100k",
+   "older_single_household_share",
+   "old_housing_share",
+   "regular_employee_share",
+   "screening_uptake",
+   "obesity_rate"
+  ]
+ }
+}

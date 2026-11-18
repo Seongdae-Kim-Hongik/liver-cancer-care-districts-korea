@@ -1,0 +1,808 @@
+{
+ "anyiwe2016effect": {
+  "type": "journal",
+  "authors": [
+   "Anyiwe K",
+   "Qiao Y",
+   "De P",
+   "Yoshida EM",
+   "Earle CC",
+   "Thein HH"
+  ],
+  "title": "Effect of socioeconomic status on hepatocellular carcinoma incidence and stage at diagnosis, a population-based cohort study",
+  "journal": "Liver Int",
+  "year": 2016,
+  "vol": "36",
+  "issue": "6",
+  "pages": "902-910",
+  "doi": "10.1111/liv.12982",
+  "pmid": "26455359",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "bagnardi2015alcohol": {
+  "type": "journal",
+  "authors": [
+   "Bagnardi V",
+   "Rota M",
+   "Botteri E",
+   "Tramacere I",
+   "Islami F",
+   "Fedirko V",
+   "Scotti L",
+   "Jenab M",
+   "Turati F",
+   "Pasquali E",
+   "Pelucchi C",
+   "Galeone C",
+   "Bellocco R",
+   "Negri E",
+   "Corrao G",
+   "Boffetta P",
+   "La Vecchia C"
+  ],
+  "title": "Alcohol consumption and site-specific cancer risk: a comprehensive dose-response meta-analysis",
+  "journal": "Br J Cancer",
+  "year": 2015,
+  "vol": "112",
+  "issue": "3",
+  "pages": "580-593",
+  "doi": "10.1038/bjc.2014.579",
+  "pmid": "25422909",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "baumeister2019physical": {
+  "type": "journal",
+  "authors": [
+   "Baumeister SE",
+   "Leitzmann MF",
+   "Linseisen J",
+   "Schlesinger S"
+  ],
+  "title": "Physical Activity and the Risk of Liver Cancer: a Systematic Review and Meta-Analysis of Prospective Studies and a Bias Analysis",
+  "journal": "J Natl Cancer Inst",
+  "year": 2019,
+  "vol": "111",
+  "issue": "11",
+  "pages": "1142-1151",
+  "doi": "10.1093/jnci/djz111",
+  "pmid": "31168582",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "benchimol2015reporting": {
+  "type": "journal",
+  "authors": [
+   "Benchimol EI",
+   "Smeeth L",
+   "Guttmann A",
+   "Harron K",
+   "Moher D",
+   "Petersen I",
+   "Sørensen HT",
+   "von Elm E",
+   "Langan SM"
+  ],
+  "title": "The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) statement",
+  "journal": "PLoS Med",
+  "year": 2015,
+  "vol": "12",
+  "issue": "10",
+  "pages": "e1001885",
+  "doi": "10.1371/journal.pmed.1001885",
+  "pmid": "26440803",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "chen2012excess": {
+  "type": "journal",
+  "authors": [
+   "Chen Y",
+   "Wang X",
+   "Wang J",
+   "Yan Z",
+   "Luo J"
+  ],
+  "title": "Excess body weight and the risk of primary liver cancer: an updated meta-analysis of prospective studies",
+  "journal": "Eur J Cancer",
+  "year": 2012,
+  "vol": "48",
+  "issue": "14",
+  "pages": "2137-2145",
+  "doi": "10.1016/j.ejca.2012.02.063",
+  "pmid": "22446023",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "cheolseong2017data": {
+  "type": "journal",
+  "authors": [
+   "Seong SC",
+   "Kim YY",
+   "Khang YH",
+   "Park JH",
+   "Kang HJ",
+   "Lee H",
+   "Do CH",
+   "Song JS",
+   "Hyon Bang J",
+   "Ha S",
+   "Lee EJ",
+   "Ae Shin S"
+  ],
+  "title": "Data resource profile: the National Health Information Database of the National Health Insurance Service in South Korea",
+  "journal": "Int J Epidemiol",
+  "year": 2017,
+  "vol": "46",
+  "issue": "3",
+  "pages": "799-800",
+  "doi": "10.1093/ije/dyw253",
+  "pmid": "27794523",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "dupont2022spatial": {
+  "type": "journal",
+  "authors": [
+   "Dupont E",
+   "Wood SN",
+   "Augustin NH"
+  ],
+  "title": "Spatial+: a novel approach to spatial confounding",
+  "journal": "Biometrics",
+  "year": 2022,
+  "vol": "78",
+  "issue": "4",
+  "pages": "1279-1290",
+  "doi": "10.1111/biom.13656",
+  "pmid": "35258102",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "greenland1989ecological": {
+  "type": "journal",
+  "authors": [
+   "Greenland S",
+   "Morgenstern H"
+  ],
+  "title": "Ecological bias, confounding, and effect modification",
+  "journal": "Int J Epidemiol",
+  "year": 1989,
+  "vol": "18",
+  "issue": "1",
+  "pages": "269-274",
+  "doi": "10.1093/ije/18.1.269",
+  "pmid": "2656561",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "inskip1983methods": {
+  "type": "journal",
+  "authors": [
+   "Inskip H",
+   "Beral V",
+   "Fraser P",
+   "Haskey J"
+  ],
+  "title": "Methods for age-adjustment of rates",
+  "journal": "Stat Med",
+  "year": 1983,
+  "vol": "2",
+  "issue": "4",
+  "pages": "455-466",
+  "doi": "10.1002/sim.4780020404",
+  "pmid": "6672943",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "ishiguro2009serum": {
+  "type": "journal",
+  "authors": [
+   "Ishiguro S",
+   "Inoue M",
+   "Tanaka Y",
+   "Mizokami M",
+   "Iwasaki M",
+   "Tsugane S"
+  ],
+  "title": "Serum aminotransferase level and the risk of hepatocellular carcinoma: a population-based cohort study in Japan",
+  "journal": "Eur J Cancer Prev",
+  "year": 2009,
+  "vol": "18",
+  "issue": "1",
+  "pages": "26-32",
+  "doi": "10.1097/CEJ.0b013e3282fa9edd",
+  "pmid": "19077561",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "jang2021spatial": {
+  "type": "journal",
+  "authors": [
+   "Jang J",
+   "Yoo DS",
+   "Chun BC"
+  ],
+  "title": "Spatial epidemiologic analysis of the liver cancer and gallbladder cancer incidence and its determinants in South Korea",
+  "journal": "BMC Public Health",
+  "year": 2021,
+  "vol": "21",
+  "issue": "1",
+  "pages": "2090",
+  "doi": "10.1186/s12889-021-12184-8",
+  "pmid": "34774036",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "jee2004cigarette": {
+  "type": "journal",
+  "authors": [
+   "Jee SH",
+   "Ohrr H",
+   "Sull JW",
+   "Samet JM"
+  ],
+  "title": "Cigarette smoking, alcohol drinking, hepatitis B, and risk for hepatocellular carcinoma in Korea",
+  "journal": "J Natl Cancer Inst",
+  "year": 2004,
+  "vol": "96",
+  "issue": "24",
+  "pages": "1851-1856",
+  "doi": "10.1093/jnci/djh334",
+  "pmid": "15601641",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "jee2005fasting": {
+  "type": "journal",
+  "authors": [
+   "Jee SH",
+   "Ohrr H",
+   "Sull JW",
+   "Yun JE",
+   "Ji M",
+   "Samet JM"
+  ],
+  "title": "Fasting serum glucose level and cancer risk in Korean men and women",
+  "journal": "JAMA",
+  "year": 2005,
+  "vol": "293",
+  "issue": "2",
+  "pages": "194-202",
+  "doi": "10.1001/jama.293.2.194",
+  "pmid": "15644546",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kang2015korea": {
+  "type": "journal",
+  "authors": [
+   "Kang YW",
+   "Ko YS",
+   "Kim YJ",
+   "Sung KM",
+   "Kim HJ",
+   "Choi HY",
+   "Sung C",
+   "Jeong E"
+  ],
+  "title": "Korea Community Health Survey data profiles",
+  "journal": "Osong Public Health Res Perspect",
+  "year": 2015,
+  "vol": "6",
+  "issue": "3",
+  "pages": "211-217",
+  "doi": "10.1016/j.phrp.2015.05.003",
+  "pmid": "26430619",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kim2004normal": {
+  "type": "journal",
+  "authors": [
+   "Kim HC",
+   "Nam CM",
+   "Jee SH",
+   "Han KH",
+   "Oh DK",
+   "Suh I"
+  ],
+  "title": "Normal serum aminotransferase concentration and risk of mortality from liver diseases: prospective cohort study",
+  "journal": "BMJ",
+  "year": 2004,
+  "vol": "328",
+  "issue": "7446",
+  "pages": "983",
+  "doi": "10.1136/bmj.38050.593634.63",
+  "pmid": "15028636",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kim2020potential": {
+  "type": "journal",
+  "authors": [
+   "Kim J",
+   "Kang W",
+   "Sinn DH",
+   "Gwak GY",
+   "Paik YH",
+   "Choi MS",
+   "Lee JH",
+   "Koh KC",
+   "Paik SW"
+  ],
+  "title": "Potential etiology, prevalence of cirrhosis, and mode of detection among patients with non-B non-C hepatocellular carcinoma in Korea",
+  "journal": "Korean J Intern Med",
+  "year": 2020,
+  "vol": "35",
+  "issue": "1",
+  "pages": "65-78",
+  "doi": "10.3904/kjim.2018.040",
+  "pmid": "31189301",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kim2022relationship": {
+  "type": "journal",
+  "authors": [
+   "Kim HS",
+   "Nam HW",
+   "Ahn HJ",
+   "Kim D",
+   "Kim YH"
+  ],
+  "title": "Relationship between Clonorchis sinensis Infection and Cholangiocarcinoma in Korea",
+  "journal": "Korean J Parasitol",
+  "year": 2022,
+  "vol": "60",
+  "issue": "4",
+  "pages": "261-271",
+  "doi": "10.3347/kjp.2022.60.4.261",
+  "pmid": "36041488",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kim2024epidemiology": {
+  "type": "journal",
+  "authors": [
+   "Kim LY",
+   "Yoo JJ",
+   "Chang Y",
+   "Jo H",
+   "Cho YY",
+   "Lee S",
+   "Lee DH",
+   "Jang JY"
+  ],
+  "title": "The Epidemiology of Hepatitis B Virus Infection in Korea: 15-Year Analysis",
+  "journal": "J Korean Med Sci",
+  "year": 2024,
+  "vol": "39",
+  "issue": "4",
+  "pages": "e22",
+  "doi": "10.3346/jkms.2024.39.e22",
+  "pmid": "38288536",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "knorrheld2000bayesian": {
+  "type": "journal",
+  "authors": [
+   "Knorr-Held L"
+  ],
+  "title": "Bayesian modelling of inseparable space-time variation in disease risk",
+  "journal": "Stat Med",
+  "year": 2000,
+  "vol": "19",
+  "issue": "17-18",
+  "pages": "2555-2567",
+  "doi": "10.1002/1097-0258(20000915/30)19:17/18<2555::aid-sim587>3.0.co;2-#",
+  "pmid": "10960871",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kwon2014regional": {
+  "type": "journal",
+  "authors": [
+   "Kwon GY",
+   "Lee H",
+   "Gwack J",
+   "Lee SW",
+   "Ki M",
+   "Youn SK"
+  ],
+  "title": "Regional distribution of hepatitis C virus infection in the Republic of Korea, 2007-2011",
+  "journal": "Gut Liver",
+  "year": 2014,
+  "vol": "8",
+  "issue": "4",
+  "pages": "428-432",
+  "doi": "10.5009/gnl.2014.8.4.428",
+  "pmid": "25071909",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "kwon2020impact": {
+  "type": "journal",
+  "authors": [
+   "Kwon JW",
+   "Tchoe HJ",
+   "Lee J",
+   "Suh JK",
+   "Lee JH",
+   "Shin S"
+  ],
+  "title": "The Impact of National Surveillance for Liver Cancer: results from Real-World Setting in Korea",
+  "journal": "Gut Liver",
+  "year": 2020,
+  "vol": "14",
+  "issue": "1",
+  "pages": "108-116",
+  "doi": "10.5009/gnl18522",
+  "pmid": "30974929",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "lee2009meta": {
+  "type": "journal",
+  "authors": [
+   "Lee YC",
+   "Cohet C",
+   "Yang YC",
+   "Stayner L",
+   "Hashibe M",
+   "Straif K"
+  ],
+  "title": "Meta-analysis of epidemiologic studies on cigarette smoking and liver cancer",
+  "journal": "Int J Epidemiol",
+  "year": 2009,
+  "vol": "38",
+  "issue": "6",
+  "pages": "1497-1511",
+  "doi": "10.1093/ije/dyp280",
+  "pmid": "19720726",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "lipsitch2010negative": {
+  "type": "journal",
+  "authors": [
+   "Lipsitch M",
+   "Tchetgen Tchetgen E",
+   "Cohen T"
+  ],
+  "title": "Negative controls: a tool for detecting confounding and bias in observational studies",
+  "journal": "Epidemiology",
+  "year": 2010,
+  "vol": "21",
+  "issue": "3",
+  "pages": "383-388",
+  "doi": "10.1097/EDE.0b013e3181d61eeb",
+  "pmid": "20335814",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "moore2016association": {
+  "type": "journal",
+  "authors": [
+   "Moore SC",
+   "Lee IM",
+   "Weiderpass E",
+   "Campbell PT",
+   "Sampson JN",
+   "Kitahara CM",
+   "Keadle SK",
+   "Arem H",
+   "Berrington de Gonzalez A",
+   "Hartge P",
+   "Adami HO",
+   "Blair CK",
+   "Borch KB",
+   "Boyd E",
+   "Check DP",
+   "Fournier A",
+   "Freedman ND",
+   "Gunter M",
+   "Johannson M",
+   "Khaw KT",
+   "Linet MS",
+   "Orsini N",
+   "Park Y",
+   "Riboli E",
+   "Robien K",
+   "Schairer C",
+   "Sesso H",
+   "Spriggs M",
+   "Van Dusen R",
+   "Wolk A",
+   "Matthews CE",
+   "Patel AV"
+  ],
+  "title": "Association of Leisure-Time Physical Activity With Risk of 26 Types of Cancer in 1.44 Million Adults",
+  "journal": "JAMA Intern Med",
+  "year": 2016,
+  "vol": "176",
+  "issue": "6",
+  "pages": "816-825",
+  "doi": "10.1001/jamainternmed.2016.1548",
+  "pmid": "27183032",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "morgenstern1995ecologic": {
+  "type": "journal",
+  "authors": [
+   "Morgenstern H"
+  ],
+  "title": "Ecologic studies in epidemiology: concepts, principles, and methods",
+  "journal": "Annu Rev Public Health",
+  "year": 1995,
+  "vol": "16",
+  "issue": "",
+  "pages": "61-81",
+  "doi": "10.1146/annurev.pu.16.050195.000425",
+  "pmid": "7639884",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "noh2012factors": {
+  "type": "journal",
+  "authors": [
+   "Noh DK",
+   "Choi KS",
+   "Jun JK",
+   "Lee HY",
+   "Park EC"
+  ],
+  "title": "Factors associated with attending the National Cancer Screening Program for liver cancer in Korea",
+  "journal": "Asian Pac J Cancer Prev",
+  "year": 2012,
+  "vol": "13",
+  "issue": "2",
+  "pages": "731-736",
+  "doi": "10.7314/apjcp.2012.13.2.731",
+  "pmid": "22524852",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "riebler2016intuitive": {
+  "type": "journal",
+  "authors": [
+   "Riebler A",
+   "Sørbye SH",
+   "Simpson D",
+   "Rue H"
+  ],
+  "title": "An intuitive Bayesian spatial model for disease mapping that accounts for scaling",
+  "journal": "Stat Methods Med Res",
+  "year": 2016,
+  "vol": "25",
+  "issue": "4",
+  "pages": "1145-1165",
+  "doi": "10.1177/0962280216660421",
+  "pmid": "27566770",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "rumgay2022global": {
+  "type": "journal",
+  "authors": [
+   "Rumgay H",
+   "Arnold M",
+   "Ferlay J",
+   "Lesi O",
+   "Cabasag CJ",
+   "Vignat J",
+   "Laversanne M",
+   "McGlynn KA",
+   "Soerjomataram I"
+  ],
+  "title": "Global burden of primary liver cancer in 2020 and predictions to 2040",
+  "journal": "J Hepatol",
+  "year": 2022,
+  "vol": "77",
+  "issue": "6",
+  "pages": "1598-1606",
+  "doi": "10.1016/j.jhep.2022.08.021",
+  "pmid": "36208844",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "sangaramoorthy2022asian": {
+  "type": "journal",
+  "authors": [
+   "Sangaramoorthy M",
+   "Yang J",
+   "Guan A",
+   "DeRouen MC",
+   "Tana MM",
+   "Somsouk M",
+   "Thompson CA",
+   "Gibbons J",
+   "Ho C",
+   "Chu JN",
+   "Cheng I",
+   "Gomez SL",
+   "Shariff-Marco S"
+  ],
+  "title": "Asian American/Pacific Islander and Hispanic Ethnic Enclaves, Neighborhood Socioeconomic Status, and Hepatocellular Carcinoma Incidence in California: an Update",
+  "journal": "Cancer Epidemiol Biomarkers Prev",
+  "year": 2022,
+  "vol": "31",
+  "issue": "2",
+  "pages": "382-392",
+  "doi": "10.1158/1055-9965.EPI-21-1035",
+  "pmid": "34853019",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "shon2015comparison": {
+  "type": "journal",
+  "authors": [
+   "Shon HS",
+   "Choi HY",
+   "Kim JR",
+   "Ryu SY",
+   "Lee YJ",
+   "Lee MJ",
+   "Min HJ",
+   "Lee J",
+   "Song YJ",
+   "Ki M"
+  ],
+  "title": "Comparison and analysis of the prevalence of hepatitis C virus infection by region in the Republic of Korea during 2005-2012",
+  "journal": "Clin Mol Hepatol",
+  "year": 2015,
+  "vol": "21",
+  "issue": "3",
+  "pages": "249-256",
+  "doi": "10.3350/cmh.2015.21.3.249",
+  "pmid": "26526977",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "steegen2016increasing": {
+  "type": "journal",
+  "authors": [
+   "Steegen S",
+   "Tuerlinckx F",
+   "Gelman A",
+   "Vanpaemel W"
+  ],
+  "title": "Increasing transparency through a multiverse analysis",
+  "journal": "Perspect Psychol Sci",
+  "year": 2016,
+  "vol": "11",
+  "issue": "5",
+  "pages": "702-712",
+  "doi": "10.1177/1745691616658637",
+  "pmid": "27694465",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "turati2014alcohol": {
+  "type": "journal",
+  "authors": [
+   "Turati F",
+   "Galeone C",
+   "Rota M",
+   "Pelucchi C",
+   "Negri E",
+   "Bagnardi V",
+   "Corrao G",
+   "Boffetta P",
+   "La Vecchia C"
+  ],
+  "title": "Alcohol and liver cancer: a systematic review and meta-analysis of prospective studies",
+  "journal": "Ann Oncol",
+  "year": 2014,
+  "vol": "25",
+  "issue": "8",
+  "pages": "1526-1535",
+  "doi": "10.1093/annonc/mdu020",
+  "pmid": "24631946",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "vanderweele2017sensitivity": {
+  "type": "journal",
+  "authors": [
+   "VanderWeele TJ",
+   "Ding P"
+  ],
+  "title": "Sensitivity analysis in observational research: introducing the E-value",
+  "journal": "Ann Intern Med",
+  "year": 2017,
+  "vol": "167",
+  "issue": "4",
+  "pages": "268-274",
+  "doi": "10.7326/M16-2607",
+  "pmid": "28693043",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "vonelm2007strengthening": {
+  "type": "journal",
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+  "journal": "PLoS Med",
+  "year": 2007,
+  "vol": "4",
+  "issue": "10",
+  "pages": "e296",
+  "doi": "10.1371/journal.pmed.0040296",
+  "pmid": "17941714",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "wang2012increased": {
+  "type": "journal",
+  "authors": [
+   "Wang C",
+   "Wang X",
+   "Gong G",
+   "Ben Q",
+   "Qiu W",
+   "Chen Y",
+   "Li G",
+   "Wang L"
+  ],
+  "title": "Increased risk of hepatocellular carcinoma in patients with diabetes mellitus: a systematic review and meta-analysis of cohort studies",
+  "journal": "Int J Cancer",
+  "year": 2012,
+  "vol": "130",
+  "issue": "7",
+  "pages": "1639-1648",
+  "doi": "10.1002/ijc.26165",
+  "pmid": "21544812",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "yang2022impact": {
+  "type": "journal",
+  "authors": [
+   "Yang WJ",
+   "Kang D",
+   "Song MG",
+   "Seo TS",
+   "Kim JH"
+  ],
+  "title": "The Impact of Socioeconomic Status on Mortality in Patients with Hepatocellular Carcinoma: a Korean National Cohort Study",
+  "journal": "Gut Liver",
+  "year": 2022,
+  "vol": "16",
+  "issue": "6",
+  "pages": "976-984",
+  "doi": "10.5009/gnl210567",
+  "pmid": "35466091",
+  "verified": "PubMed esummary 2026-11-06"
+ },
+ "bell2015explaining": {
+  "type": "journal",
+  "authors": [
+   "Bell A",
+   "Jones K"
+  ],
+  "title": "Explaining fixed effects: random effects modeling of time-series cross-sectional and panel data",
+  "journal": "Polit Sci Res Methods",
+  "year": 2015,
+  "vol": "3",
+  "issue": "1",
+  "pages": "133-153",
+  "doi": "10.1017/psrm.2014.7",
+  "verified": "Crossref 2026-11-06"
+ },
+ "rue2009approximate": {
+  "type": "journal",
+  "authors": [
+   "Rue H",
+   "Martino S",
+   "Chopin N"
+  ],
+  "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations",
+  "journal": "J R Stat Soc Series B Stat Methodol",
+  "year": 2009,
+  "vol": "71",
+  "issue": "2",
+  "pages": "319-392",
+  "doi": "10.1111/j.1467-9868.2008.00700.x",
+  "verified": "Crossref 2026-11-06"
+ },
+ "web:mois2026population": {
+  "type": "web",
+  "authors": "Ministry of the Interior and Safety",
+  "title": "Resident registration population by district, sex, and 5-year age group, 2011-2024",
+  "url": "https://jumin.mois.go.kr",
+  "year": 2026,
+  "accessed": "October 20, 2026"
+ },
+ "web:nhis2026regional": {
+  "type": "web",
+  "authors": "National Health Insurance Service",
+  "title": "Regional medical care utilization statistics: number of persons treated for major diseases by district of residence, liver cancer (C22), 2011-2024",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "October 20, 2026"
+ },
+ "web:rcore2026": {
+  "type": "web",
+  "authors": "R Core Team",
+  "title": "R: a language and environment for statistical computing. Version 4.6.0. Vienna: R Foundation for Statistical Computing; 2026",
+  "url": "https://www.R-project.org/",
+  "year": 2026,
+  "accessed": "October 20, 2026"
+ }
+}
