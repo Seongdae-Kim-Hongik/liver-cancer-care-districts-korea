@@ -71,7 +71,7 @@ def table1():
         mx = max(abs(T[c]['cov'][v][0]) for c in cols); dp = 0 if mx >= 100 else (2 if mx < 1 else 1)
         rows.append([f"  {lab}"] + [f"{T[c]['cov'][v][0]:,.{dp}f} ({T[c]['cov'][v][1]:,.{dp}f})" for c in cols])
     foot = (f"† Direct standardization to the 2015 national population in ten age groups. Crude and age-standardized window values are means of annual rates (crude {N['crude_2011']:.1f} in 2011 and {N['crude_2024']:.1f} in 2024; age-standardized {N['asr_2011']:.1f} and {N['asr_2024']:.1f}). "
-            "‡ Observed over indirectly age-standardized expected counts summed over the window. § Per 100,000 population. "
+            "‡ Observed over indirectly age-standardized expected counts summed over the window. § Per 100,000 population. Counts are rounded independently, so window values may not sum to the total. "
             "P10-P90, 10th-90th percentile; SD, standard deviation; STR, standardized treatment ratio.")
     return ("Table 1 People treated for liver cancer and district characteristics by calendar window, Korea, 2011-2024", ["Characteristic", "2011-2015", "2016-2019", "2020-2024", "2011-2024"], rows, [6.6, 2.5, 2.5, 2.5, 2.5], foot)
 

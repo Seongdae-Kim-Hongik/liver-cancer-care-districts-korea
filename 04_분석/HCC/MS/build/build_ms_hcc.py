@@ -62,6 +62,7 @@ class MSDOC(JKMS):
     raw = False
     def _emit(self, p, text, sz=12, bold=False, italic=False):
         if not self.raw:
+            text = re.sub(r"\s+(\{\{)", r"\1", text)   # 위첨자 앞 공백 없음
             text = re.sub(r"(\{\{[^}]+\}\})([.,;:])", r"\2\1", text)   # 위첨자는 마침표·쉼표 뒤
             text = re.sub(r"(^|[\s(])-(?=\d)", "\\1\u2212", text)
         return super()._emit(p, text, sz, bold, italic)

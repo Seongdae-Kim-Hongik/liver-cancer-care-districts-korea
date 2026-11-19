@@ -2,9 +2,9 @@
 
 Analysis code for the manuscript
 
-> Kim S. *Why do southern Korean districts still have more people under liver cancer care after age adjustment?* Manuscript submitted for publication.
+> Kim S. *Does liver cancer care remain concentrated in southern Korean districts after age adjustment?* Manuscript submitted for publication.
 
-Archived version: Zenodo, https://doi.org/10.5281/zenodo.24356005 (v1.0.0).
+Archived version: Zenodo, https://doi.org/10.5281/zenodo.24356080 (v1.0.1).
 
 ## Contents
 
